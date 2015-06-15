@@ -83,13 +83,3 @@ gem build logstash-codec-logfmt.gemspec
 bin/plugin install /your/local/plugin/logstash-codec-logfmt.gem
 ```
 - Start Logstash and proceed to test the plugin
-
-## Contributing
-
-All contributions are welcome: ideas, patches, documentation, bug reports, complaints, and even something you drew up on a napkin.
-
-Programming is not a required skill. Whatever you've seen about open source and maintainers or community members  saying "send patches or die" - you will not see that here.
-
-It is more important to me that you are able to contribute.
-
-For more information about contributing, see the [CONTRIBUTING](https://github.com/elasticsearch/logstash/blob/master/CONTRIBUTING.md) file.

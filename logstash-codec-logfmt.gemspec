@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
 
   s.name            = 'logstash-codec-logfmt'
-  s.version         = '0.1.0'
+  s.version         = '0.1.1'
   s.licenses        = ['Apache License (2.0)']
-  s.summary         = "This codec may be used to decode (via inputs) and encode (via outputs) full LogFMT messages"
-  s.description     = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install gemname. This gem is not a stand-alone program"
-  s.authors         = ["Elastic"]
-  s.email           = 'info@elastic.co'
+  s.summary         = "This codec may be used to decode (via inputs) full Logfmt messages"
+  s.description     = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install logstash-codec-logfmt. This gem is not a stand-alone program"
+  s.authors         = ["Tim Buchwaldt"]
+  s.email           = 'tim.buchwaldt@grandcentrix.net'
   s.homepage        = "http://www.elastic.co/guide/en/logstash/current/index.html"
   s.require_paths = ["lib"]
 

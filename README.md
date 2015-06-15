@@ -1,6 +1,6 @@
 # Logstash Plugin
 
-This is a plugin for [Logstash](https://github.com/elasticsearch/logstash), allowing logstash to parse logfmt-formatted messages to be parsed.
+This is a plugin for [Logstash](https://github.com/elasticsearch/logstash), allowing logstash to parse logfmt-formatted messages.
 
 It is fully free and fully open source. The license is Apache 2.0, meaning you are pretty much free to use it however you want in whatever way.
 
@@ -60,7 +60,7 @@ bundle exec rspec
 
 - Edit Logstash `tools/Gemfile` and add the local plugin path, for example:
 ```ruby
-gem "logstash-filter-awesome", :path => "/your/local/logstash-filter-awesome"
+gem "logstash-codec-logfmt", :path => "/your/local/logstash-codec-logfmt"
 ```
 - Update Logstash dependencies
 ```sh
@@ -76,11 +76,11 @@ At this point any modifications to the plugin code will be applied to this local
 
 - Build your plugin gem
 ```sh
-gem build logstash-filter-awesome.gemspec
+gem build logstash-codec-logfmt.gemspec
 ```
 - Install the plugin from the Logstash home
 ```sh
-bin/plugin install /your/local/plugin/logstash-filter-awesome.gem
+bin/plugin install /your/local/plugin/logstash-codec-logfmt.gem
 ```
 - Start Logstash and proceed to test the plugin
 

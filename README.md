@@ -1,4 +1,6 @@
 # Logstash Plugin
+[![Build Status](https://travis-ci.org/grandcentrix/logstash-codec-logfmt.svg?branch=master)](https://travis-ci.org/grandcentrix/logstash-codec-logfmt)
+
 
 This is a plugin for [Logstash](https://github.com/elasticsearch/logstash), allowing logstash to parse logfmt-formatted messages.
 

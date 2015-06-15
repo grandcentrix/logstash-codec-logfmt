@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    logstash-codec-logfmt (0.1.8)
+    logstash-codec-logfmt (0.1.1)
       logfmt (~> 0.0.7)
       logstash-core (>= 1.4.0, < 2.0.0)
 

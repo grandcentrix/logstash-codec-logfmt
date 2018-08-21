@@ -1,4 +1,4 @@
-# Logstash Plugin
+# OUTDATED - DO NOT USE
 [![Build Status](https://travis-ci.org/grandcentrix/logstash-codec-logfmt.svg?branch=master)](https://travis-ci.org/grandcentrix/logstash-codec-logfmt)
 
 
